@@ -115,7 +115,7 @@ int main(){
 	cout << " SOMA DOS VALORES " << endl;
 	for (int i = 0; i < 5; ++i){
 		c[i] = a[i] + b[i];
-
+```
 ## Exemplo Prático 5: Soma de Números Positivos até N
 
 Este programa resolve o problema de calcular a soma de uma sequência de números. Ele solicita um limite `N` ao usuário e utiliza um laço `for` em conjunto com uma variável acumuladora (`soma`) para somar todos os inteiros de 1 até `N`.
