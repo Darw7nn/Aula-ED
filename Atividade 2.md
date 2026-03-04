@@ -46,3 +46,44 @@ int main(){
 
 **Saída esperada no terminal:**
 `1 2 3 4 5 `
+## Exemplo Prático 2: Contagem Regressiva (Decremento)
+
+Exemplo de laço com a direção invertida, contando de 5 até 1 usando o operador de decremento (`--`).
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+	for (int i = 5; i >= 1; --i){
+		cout << i << " ";
+	}
+}
+```
+
+---
+
+## Exemplo Prático 3: Iterando sobre Vetores (Arrays)
+
+Neste cenário, utilizamos o `for` em dois momentos distintos: primeiro para capturar as entradas do usuário e preencher um vetor de 5 posições, e depois para percorrer as posições e exibir os dados armazenados.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+	int a [5];
+	
+	for (int i = 0; i < 5; ++i){
+		cout << "Informe um valor: ";
+		cin >> a [i];
+	}
+	
+	cout << "Valores informados: ";
+	for (int i = 0; i < 5; ++i){
+		cout << a[i] << " ";
+	}
+	
+	return 0;
+}
+```
