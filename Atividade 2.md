@@ -128,7 +128,7 @@ int main(){
 	int n;
 	int soma = 0;
 	
-	cout << "Digite um numero inteiro N: ";
+	cout << "Digite um numero inteiro : ";
 	cin >> n;
 	
 	for (int i = 1; i <= n; ++i){
@@ -136,12 +136,6 @@ int main(){
 	}
 	
 	cout << "A soma dos numeros positivos ate " << n << " e: " << soma << "\n";
-	
-	return 0;
-}
-```
-		cout << c[i] << endl;
-	}
 	
 	return 0;
 }
