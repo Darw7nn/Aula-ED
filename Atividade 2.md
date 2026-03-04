@@ -87,3 +87,62 @@ int main(){
 	return 0;
 }
 ```
+## Exemplo Prático 4: Operações com Múltiplos Vetores
+
+Neste exemplo, utilizamos três laços `for` para manipular múltiplos vetores paralelos. O laço preenche o vetor `a`, depois preenche o vetor `b` (aproveitando para mostrar o que já tem em `a`), e por fim calcula a soma em um terceiro vetor `c`.
+
+
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+	int a[5], b[5], c[5];
+	
+	for (int i = 0; i < 5; ++i){
+		cout << " ########### VECTOR A ####### ";
+		cin >> a[i];
+	}
+	
+	cout << " ####################### \n";
+	for (int i = 0; i < 5; ++i){
+		cout << a[i] << " Informe um valor: ";
+		cin >> b[i];
+	}
+	cout << " ####################### " << endl;
+	
+	cout << " SOMA DOS VALORES " << endl;
+	for (int i = 0; i < 5; ++i){
+		c[i] = a[i] + b[i];
+
+## Exemplo Prático 5: Soma de Números Positivos até N
+
+Este programa resolve o problema de calcular a soma de uma sequência de números. Ele solicita um limite `N` ao usuário e utiliza um laço `for` em conjunto com uma variável acumuladora (`soma`) para somar todos os inteiros de 1 até `N`.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+	int n;
+	int soma = 0;
+	
+	cout << "Digite um numero inteiro N: ";
+	cin >> n;
+	
+	for (int i = 1; i <= n; ++i){
+		soma += i;
+	}
+	
+	cout << "A soma dos numeros positivos ate " << n << " e: " << soma << "\n";
+	
+	return 0;
+}
+```
+		cout << c[i] << endl;
+	}
+	
+	return 0;
+}
+```
