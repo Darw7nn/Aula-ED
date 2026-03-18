@@ -1,14 +1,3 @@
-# 💻 Desafios de Programação: Manipulação de Listas em C++
-
-**Instituição:** FATEC  
-**Curso:** Análise e Desenvolvimento de Sistemas (ADS) - 3º Semestre  
-**Disciplina:** [Nome da Disciplina]  
-**Autor:** [Seu Nome]  
-
----
-
-## 📌 Sobre o Repositório
-Este repositório contém a resolução de três desafios práticos em **C++**, focados no uso e manipulação da estrutura de dados `std::list` (listas duplamente encadeadas). O objetivo é demonstrar conceitos fundamentais como inserção, iteração, inversão e ordenação de dados.
 
 ---
 
