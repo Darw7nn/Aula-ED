@@ -44,4 +44,17 @@ A representação figurada (desenhos) é inadequada para armazenar grafos no com
 
 ## 📝 Minhas Atividades
 
+<p align="center">
+ <img width="2752" height="1536" alt="Image" src="https://github.com/user-attachments/assets/b1b21eec-2941-4e6b-95a3-3ccb51238e8b" />
 
+
+  <img width="2816" height="1536" alt="Image" src="https://github.com/user-attachments/assets/43581a42-1c69-4ef1-b932-4fafdb7e4f8c" />
+</p>
+
+
+
+<img width="2816" height="1536" alt="Image" src="https://github.com/user-attachments/assets/64f13fd0-403b-46ab-bfad-fd69ab338a48" />
+
+<img width="2816" height="1536" alt="Image" src="https://github.com/user-attachments/assets/69b26660-5c7e-4ca6-9f18-eef8317a5985" />
+
+<img width="2816" height="1536" alt="Image" src="https://github.com/user-attachments/assets/79863473-c5ce-482a-9c65-494080c364a3" />
