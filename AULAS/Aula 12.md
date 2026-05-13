@@ -1,61 +1,3 @@
-#include <iostream>
-#include <list>
-
-using namespace std;
-
-class Fila {
-public:
-    Fila() {}
-
-    // Adiciona um elemento ao final da fila
-    void enfileirar(int elemento) {
-        lista.push_back(elemento);
-    }
-
-    // Remove o elemento do início da fila e o retorna
-    int desenfileirar() {
-        if (lista.empty()) {
-            return -1; // Retorna -1 se a fila estiver vazia
-        }
-
-        int elemento = lista.front();
-        lista.pop_front();
-        return elemento;
-    }
-
-    // Verifica se a fila está vazia
-    bool vazia() {
-        return lista.empty();
-    }
-
-    // Percorre a lista e exibe todos os elementos
-    void mostrarElementoFila() {
-        for (auto i : lista) {
-            cout << "Elemento: " << i << endl;
-        }
-    }
-
-private:
-    list<int> lista;
-};
-
-int main() {
-    Fila fila;
-
-    fila.enfileirar(1);
-    fila.enfileirar(2);
-    fila.enfileirar(3);
-    
-    // Remove o primeiro elemento (o número 1)
-    fila.desenfileirar();
-
-    // Deve mostrar apenas os elementos 2 e 3
-    fila.mostrarElementoFila();
-
-    return 0;
-}
-
-
 
 
 # Experimentos com Estruturas de Dados em C++ (Fila/Queue)
@@ -202,5 +144,62 @@ int main() {
     hospital.mostrarFila();
     hospital.aplicarPrioridade();
     hospital.mostrarFila();
+    return 0;
+}
+
+#include <iostream>
+#include <list>
+
+using namespace std;
+
+class Fila {
+public:
+    Fila() {}
+
+    // Adiciona um elemento ao final da fila
+    void enfileirar(int elemento) {
+        lista.push_back(elemento);
+    }
+
+    // Remove o elemento do início da fila e o retorna
+    int desenfileirar() {
+        if (lista.empty()) {
+            return -1; // Retorna -1 se a fila estiver vazia
+        }
+
+        int elemento = lista.front();
+        lista.pop_front();
+        return elemento;
+    }
+
+    // Verifica se a fila está vazia
+    bool vazia() {
+        return lista.empty();
+    }
+
+    // Percorre a lista e exibe todos os elementos
+    void mostrarElementoFila() {
+        for (auto i : lista) {
+            cout << "Elemento: " << i << endl;
+        }
+    }
+
+private:
+    list<int> lista;
+};
+
+int main() {
+    Fila fila;
+
+    fila.enfileirar(1);
+    fila.enfileirar(2);
+    fila.enfileirar(3);
+    
+    // Remove o primeiro elemento (o número 1)
+    fila.desenfileirar();
+
+    // Deve mostrar apenas os elementos 2 e 3
+    fila.mostrarElementoFila();
+
     return 0;
 }
